@@ -6,4 +6,4 @@ Used Jest testing library. To run tests `jest`
 
 ## Running function
 
-To run execute `node index.js`
+To run `node index.js`
