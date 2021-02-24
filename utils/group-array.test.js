@@ -3,8 +3,11 @@ const groupArrayElements = require("./group-array");
 test("should group elements in the array", () => {
   const numberOfGroups = 3;
 
+  const expected = [[1, 2], [3, 4], [5]];
+
   const newArray = groupArrayElements([1, 2, 3, 4, 5], numberOfGroups);
   expect(newArray.length).toBe(3);
+  expect(JSON.stringify(expected) == JSON.stringify(newArray));
 });
 
 test("should return empty array if empty array provided", () => {
