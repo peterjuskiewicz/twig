@@ -3,6 +3,8 @@
  * 
  * @param {Array<any>} arr - Array of items to group
  * @param {number} n - Number of groups
+ * @throws Will throw an error if number of groups is greater than array length
+ * @returns {Array<Array<any>>} Grouped array
  */
 
 const groupArrayElements = (arr, n) => {
