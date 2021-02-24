@@ -7,7 +7,7 @@ test("should group elements in the array", () => {
 
   const newArray = groupArrayElements([1, 2, 3, 4, 5], numberOfGroups);
   expect(newArray.length).toBe(3);
-  expect(JSON.stringify(expected) == JSON.stringify(newArray));
+  expect(JSON.stringify(expected) === JSON.stringify(newArray));
 });
 
 test("should return empty array if empty array provided", () => {
