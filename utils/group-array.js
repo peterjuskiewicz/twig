@@ -2,6 +2,11 @@ const groupArrayElements = (arr, n) => {
   if (arr.length === 0) {
     return [];
   }
+
+  if (n > arr.length) {
+    throw "number of groups cannot be greater than array length";
+  }
+
   // array to store groups
   let newArray = [];
 
