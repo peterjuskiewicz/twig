@@ -17,4 +17,4 @@ const groupArrayElements = (arr, n) => {
   return newArray;
 };
 
-export default groupArrayElements;
+module.exports = groupArrayElements;
