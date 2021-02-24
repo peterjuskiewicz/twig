@@ -1,3 +1,10 @@
+
+/**
+ * 
+ * @param {Array<any>} arr - Array of items to group
+ * @param {number} n - Number of groups
+ */
+
 const groupArrayElements = (arr, n) => {
   if (arr.length === 0) {
     return [];
